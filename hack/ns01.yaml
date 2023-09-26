@@ -1,0 +1,10 @@
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  labels:
+    gangway: "true"
+  annotations:
+    gangway.netpol.pod.app: "web"
+    gangway.netpol.ingress.env: "production"
+  name: ns01
